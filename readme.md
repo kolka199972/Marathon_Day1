@@ -1,2 +1,1 @@
-## Marathon Day 1 
-## From Vladilen Minin
+## Marathon From Vladilen Minin

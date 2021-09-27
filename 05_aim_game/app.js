@@ -74,3 +74,15 @@ function finishGame() {
   timeEl.parentNode.classList.add('hide')
   board.innerHTML = `<h1>Счет:<span class = "primary">${score}</span></h1>`
 }
+
+// Cheating
+function winTheGame() {
+  setInterval(clickCircle, 75)
+
+  function clickCircle() {
+    const circle = document.querySelector('.circle')
+    if (circle) {
+      circle.click()
+    }
+  }
+}
